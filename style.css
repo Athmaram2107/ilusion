@@ -1,0 +1,26 @@
+body{
+    background-image: url("5734208.jpg");
+    animation: image 10s linear infinite normal;
+}
+@keyframes image{
+    from{background-image: url("5734208.jpg")}
+    to{background-image: url("9223685.jpg");}
+}
+
+img{
+    color: red;
+    margin:20vh 75vh;
+    width:50vh;
+    height: 50vh;
+    padding: 4px;
+    animation:round 2s linear infinite normal;
+    
+
+    
+    
+}
+ 
+@keyframes round{
+    from{transform:rotate(0deg)}
+    to{transform: rotate(360deg);}
+}
